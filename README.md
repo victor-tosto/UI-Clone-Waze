@@ -11,7 +11,7 @@
 <br>
 
 <p align="center">
-  <img alt="Waze" src="images/logo.svg" width="100%">
+  <img alt="Waze" src="images/logo.svg" width="50%">
 </p>
 
 ## 🚀 Tecnologias
