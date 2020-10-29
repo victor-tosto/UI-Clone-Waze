@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instruções de navegação, alertas de trânsito e caronas por Waze</title>
+
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/page-home.css">
+    <link rel="stylesheet" href="styles/animations.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico" sizes="32x32">
+
+</head>
+
+<body>
+
+    <div id="home-page">
+
+        <div id="container-home">
+            <header>
+                <a class="nav-logo" href="index.html">
+                    <img src="images/logo.svg" alt="Waze">
+                </a>
+
+                <div class="wz-hamburguer">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+
+                <nav class="wz-nav">
+                    <ul>
+                        <li>
+                            <a class="nav-link" href="">Waze</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="">Carpool</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="">Parceiros</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <nav class="wz-links">
+                    <ul>
+                        <li>
+                            <a class="nav-link" href="">Pegue carona</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="">Mapa ao vivo</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="">Baixar</a>
+                        </li>
+                        <li>
+                            <a class="nav-btn" href="">Entrar</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+
+            <main>
+                <section id="less-traffic">
+                    <div class="container-sections">
+                        <div class="content-traffic">
+                            <img class="wordmark animate-up" src="images/waze-wordmark.svg" alt="Waze">
+    
+                            <h1 class="animate-up">Um mundo com menos trânsito é possível</h1>
+    
+                            <p class="animate-up">Seja uma das +130 milhões de pessoas que ajudam a construí-lo.</p>
+    
+                            <div class="buttons-traffic animate-up">
+                                <a class="btn-download" href="">Baixar</a>
+                                <a class="more-info" href="">Saiba mais</a>
+                            </div>
+    
+                            <img class="wz-mood" src="images/waze-azul.svg" alt="">
+                        </div>
+
+                        <div class="container-constructions">
+                            <div class="content-constructor">
+                            </div>
+                            <div class="content-road">
+                            </div>
+
+                            <img src="images/construction.svg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="container-carpool">
+                        <div class="content-carpool">
+                            <img class="wordmark-carpool animate-up" src="images/waze-carpool-wordmark.svg" alt="Waze Carpool">
+
+                            <h1 class="animate-up">Compartilhe pedágios, combustível e conversas</h1>
+
+                            <p class="animate-up">Tem um assento vazio no seu carro? Precisa de carona? 
+                                Divida o trajeto com quem está indo para o mesmo destino.
+                            </p>
+
+                            <div class="buttons-carpool animate-up">
+                                <a class="btn-download" href="">Baixar</a>
+                                <a class="more-info" href="">Saiba mais</a>
+                            </div>
+
+                            <img class="wz-moods" src="images/moods-carpool.svg" alt="">
+                        </div>
+                    </div>
+                </section>
+
+                <section id="wz-routes">
+                    <div class="content-routes">
+                        <h1 class="animate-up">Planeje seu percurso com antecedência</h1>
+
+                        <p class="animate-up">Saiba a hora de sair, a melhor rota e o que esperar no caminho.</p>
+
+                        <p class="map animate-up">Ou acesse o 
+                            <a href="">mapa ao vivo</a>
+                        </p>
+                    </div>
+
+                    <div id="wz-map">
+                        <iframe src="https://embed.waze.com/iframe?routing=true&amp;source-url=https%3A%2F%2Fwww.waze.com%2Fpt-BR"></iframe>
+                    </div>
+                </section>
+
+                <section id="carousel" data-carousel data-inview>
+                    <div class="container-carousel">
+                        <div class="carousel-content">
+                            <div class="carousel-dots animate-up" data-control data-rotate>
+                                <div class="carousel-dot">
+                                    <div class="dot-red"></div>
+                                </div>
+                                <div class="carousel-dot">
+                                    <div class="dot-green"></div>
+                                </div>
+                                <div class="carousel-dot">
+                                    <div class="dot-yellow is-active"></div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-items">
+                                <div class="carousel-item animate-up">
+                                    <h1>Waze for Cities</h1>
+
+                                    <div class="carousel-item-content animate-up">
+                                        <p>
+                                            De ruas interditadas a eventos que afetam o trânsito, 
+                                            nossa troca de informações é uma via de mão dupla que 
+                                            ajuda a manter as cidades informadas e a 
+                                            facilitar o caminho dos Wazers.
+                                        </p>
+                                    </div>
+
+                                    <div class="carousel-item-button animate-up">
+                                        <a href="">Saiba mais</a>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item animate-up">
+                                    <h1>Parcerias de produto</h1>
+
+                                    <div class="carousel-item-content animate-up">
+                                        <p>
+                                            Seja na integração com o seu carro ou com o seu app de 
+                                            música favorito, descubra como trabalhamos com nossos 
+                                            parceiros para tornar o Waze melhor para você.
+                                        </p>
+                                    </div>
+
+                                    <div class="carousel-item-button animate-up">
+                                        <a href="">Saiba mais</a>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item is-active animate-up">
+                                    <h1>Comunidades</h1>
+
+                                    <div class="carousel-item-content animate-up">
+                                        <p>
+                                            Os melhores conselhos vêm da vizinhança. O Waze funciona 
+                                            graças aos nossos editores de mapas, testadores beta, 
+                                            tradutores e todas as pessoas que odeiam o trânsito, 
+                                            assim como você.
+                                        </p>
+                                    </div>
+
+                                    <div class="carousel-item-button animate-up">
+                                        <a href="">Saiba mais</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-images" data-rotate>
+                            <div class="carousel-image1"></div>
+                            <div class="carousel-image2"></div>
+                            <div class="carousel-image3 is-active"></div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="more-time">
+                    <div class="content-time">
+                        <img class="animate-up" src="images/mood-about.svg" alt="">
+
+                        <h1 class="animate-up">Menos tempo no trânsito, mais tempo na vida</h1>
+
+                        <div class="content-time-info animate-up">
+                            <p>
+                                Onde começou a história do Waze e como chegamos a mais de 130 
+                                milhões de pessoas combatendo o trânsito?
+                            </p>
+                        </div>
+
+                        <div class="content-time-button animate-up">
+                            <a href="">Sobre nós</a>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="wz-double-sect">
+                    <div class="container-double-sect">
+                        <div class="first-container">
+
+                            <img class="animate-up" src="images/logo.svg" alt="Waze">
+
+                            <h1 class="animate-up">Encontre o melhor trajeto</h1>
+
+                            <div class="container-first-button animate-up">
+                                <a href="">Baixe o Waze</a>
+                            </div>
+                        </div>
+
+                        <div class="second-container">
+
+                            <img class="animate-up" src="images/carpool-logo.svg" alt="Carpool">
+
+                            <h1 class="animate-up">Encontre a sua carona</h1>
+
+                            <div class="container-second-button animate-up">
+                                <a href="">Baixe o Waze Carpool</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+            <footer class="wz-footer">
+                <div class="container-footer">
+                    <div class="container-meta">
+                        <div class="footer-meta-1">
+                            <a href="index.html"><img src="images/waze-wordmark.svg" alt="Waze"></a>
+                            
+                            <p>
+                                Mais de 130 milhões de motoristas e 
+                                passageiros que também odeiam o trânsito
+                            </p>
+    
+                            <div class="footer-meta-social">
+                                <a class="social-link twitter" href="">Twitter</a>
+    
+                                <a class="social-link facebook" href="">Facebook</a>
+    
+                                <a class="social-link instagram" href="">Instagram</a>
+    
+                                <a class="social-link youtube" href="">Youtube</a>
+                            </div>
+                        </div>
+    
+                        <div class="footer-meta-2">
+                            <div class="language-selector">
+                                <div class="language-dropdown">
+                                    <a class="dropdown-button" href="">
+                                        <span>Português (Brasil)</span>
+                                        <i class="fa fa-caret-down"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="container-links">
+                        <div class="container-list">
+                            <p>
+                                <span>Suporte</span>
+                                <i class="fa fa-caret-down btn-down"></i>
+                            </p>
+    
+                            <div class="list-content">
+                                <a class="list-link" href="">Central de ajuda</a>
+    
+                                <a class="list-link" href="">Corrigir erro no mapa</a>
+    
+                                <a class="list-link" href="">Fóruns da comunidade</a>
+    
+                                <a class="list-link" href="">Wiki da comunidade</a>
+                            </div>
+                        </div>
+    
+                        <div class="container-list">
+                            <p>
+                                <span>Mapa ao vivo</span>
+                                <i class="fa fa-caret-down btn-down"></i>
+                            </p>
+    
+                            <div class="list-content">
+                                <a class="list-link" href="">Busca</a>
+    
+                                <a class="list-link" href="">Grandes eventos</a>
+    
+                                <a class="list-link" href="">Editar o mapa</a>
+    
+                                <a class="list-link" href="">Locais</a>
+                            </div>
+                        </div>
+    
+                        <div class="container-list">
+                            <p>
+                                <span>Sobre</span>
+                                <i class="fa fa-caret-down btn-down"></i>
+                            </p>
+    
+                            <div class="list-content">
+                                <a class="list-link" href="">Quem somos</a>
+    
+                                <a class="list-link" href="">Carreiras</a>
+    
+                                <a class="list-link" href="">Fale conosco</a>
+    
+                                <a class="list-link" href="">Blog do Waze</a>
+    
+                                <a class="list-link" href="">Comunidades</a>
+                            </div>
+                        </div>
+    
+                        <div class="container-list">
+                            <p>
+                                <span>Parceiros</span>
+                                <i class="fa fa-caret-down btn-down"></i>
+                            </p>
+    
+                            <div class="list-content">
+                                <a class="list-link" href="">Anuncie no Waze</a>
+    
+                                <a class="list-link" href="">Emissoras</a>
+    
+                                <a class="list-link" href="">Waze for Cities</a>
+    
+                                <a class="list-link" href="">Transporte SDK</a>
+    
+                                <a class="list-link" href="">Waze Carpool</a>
+    
+                                <a class="list-link" href="">Programa Waze Beacons</a>
+    
+                                <a class="list-link" href="">Desenvolvedores</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="container-legal">
+                        <div class="container-legal-links">
+                            <a class="legal-link" href="">Termos de uso</a>
+                            <a class="legal-link"  href="">Política de privacidade</a>
+                            <a class="legal-link"  href="">Direitos autorais</a>
+                        </div>
+    
+                        <p class="copyright">© 2006-2020 Waze Mobile. Todos os direitos reservados.</p>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+    </div>
+</body>
+
+</html>

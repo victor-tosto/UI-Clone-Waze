@@ -1,0 +1,31 @@
+:root {
+    --color-background-white: #FFFFFF;
+    --color-blue-light: #3cf;
+    --color-blue-link: #3ccfff;
+    --color-yellow: #fce354;
+    --color-green: #1ee592;
+    --color-violet: #963eff;
+    --color-off-white: #f3f3ee;
+    -color-text-grey: #adb1b6;
+
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+#home-page {
+    max-width: 900px;
+}
+
+#container-home {
+    width: 90%;
+}

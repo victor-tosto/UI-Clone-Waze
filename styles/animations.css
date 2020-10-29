@@ -1,0 +1,18 @@
+@keyframes up {
+    from {
+        transform: translate3d(0, 5vh, 0);
+        opacity: 0;
+        transition: opacity 1s;
+    }
+
+    to {
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+}
+
+.animate-up {
+    animation-name: up;
+    animation-duration: .8s;
+}
+
